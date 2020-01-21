@@ -1,0 +1,25 @@
+{
+  "name": "github-commit-analyzer-server",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon"
+  },
+  "author": "dev-yakuza <dev.yakuza@gmail.com>",
+  "license": "LGPL3.0",
+  "dependencies": {
+    "axios": "0.19.1",
+    "express": "4.17.1",
+    "github-api": "3.3.0",
+    "mysql": "2.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "4.17.2",
+    "@types/mysql": "2.15.8",
+    "@types/node": "13.1.8",
+    "nodemon": "2.0.2",
+    "ts-node": "8.6.2",
+    "typescript": "3.7.5"
+  }
+}
