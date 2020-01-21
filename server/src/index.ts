@@ -57,14 +57,13 @@ app.get('/crawling', async (req: express.Request, res: express.Response) => {
               data.stats.additions,
               data.stats.deletions
             );
-
-            res.send('Success!');
           })
           .catch(error => {
             console.log(error);
             res.send('Fail!');
           });
       });
+      res.send('Success!');
     })
     .catch(error => {
       console.log(error);
